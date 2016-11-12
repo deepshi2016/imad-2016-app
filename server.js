@@ -5,7 +5,8 @@ var path = require('path');
 var app = express();
 app.use(morgan('combined'));
 
-var articleone =
+var articles ={
+ articleone :
 {
     title :' Article one I am muthu webapp',
     heading:'Article One',
@@ -22,7 +23,29 @@ var articleone =
                         </P> `
     
     
+},
+articletwo :{ 
+    title :' Article two I am muthu webapp',
+    heading:'Article two',
+    date : 'NOV 12,2016 ',
+    content : `
+    <P> This is content of my second articleThis is content of my second article
+        
+                  
+                        </P> `
+     },
+articlethree :{
+
+ title :' Article three I am muthu webapp',
+    heading:'Article three',
+    date : 'NOV 12,2016 ',
+    content : `
+    <P> This is content of my third articleThis is content of my thirdarticle
+        
+               .   
+                        </P>  }
 };
+
 function createtemplate(data)
 
 {
@@ -35,10 +58,13 @@ var htmltemplate =`
 
     <html>
     <head>
-        ${title}
+        <title>
+         ${title}
+        </title>
         <meta name ="view port" content ="width=device-width,initial-scale=1"/>
         <link href="/ui/style.css" rel="stylesheet" />
-                   </head>
+        
+           </head>
     <body>
         <div class="container">
             
