@@ -49,19 +49,21 @@ articlethree :{
 function createtemplate(data)
 
 {
-var title =data.title;
-var heading =data.heading;
-var date = data.date;
-var content=data.content;
+ var title =data.title;
+ var heading =data.heading;
+ var date = data.date;
+ var content=data.content;
     
 var htmltemplate =
+
    ` <html>
-     <head>
-        <title>$title</title>
-        <meta name ="view port" content ="width=device-width,initial-scale=1"/>
+      <head>
+        <title>
+           ${title}
+        </title>
+         <meta name ="view port" content ="width=device-width,initial-scale=1"/>
         <link href="/ui/style.css" rel="stylesheet" />
-        
-           </head>
+                   </head>
     <body>
         <div class="container">
             
