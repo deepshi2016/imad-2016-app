@@ -13,10 +13,8 @@ var articles ={
     date : 'NOV 12,2016 ',
     content : `
     <P> This is content of my first articleThis is content of my first articleThis is content of my first articleThis is content of my     first article This is content of my first article This is content of my first articleThis is content of my first article</P>,
-            <P>
-                This is content of my first articleThis is content of my first articleThis is content of my first articleThis is content of my first articleThis is content of my first article,This is content of my first articleThis is content of my first article
-                <P>
-                    This is content of my first articleThis is content of my first articleThis is content of my first articleThis is content of my first articleThis is content of my first article,This is content of my first article.
+            <P> This is content of my first articleThis is content of my first articleThis is content of my first articleThis is content of my first articleThis is content of my first article,This is content of my first articleThis is content of my first article
+                <P> This is content of my first articleThis is content of my first articleThis is content of my first articleThis is content of my first articleThis is content of my first article,This is content of my first article.
         
         
                     
