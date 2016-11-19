@@ -57,10 +57,7 @@ function createTemplate(data){
 var htmltemplate =
    ` <html>
       <head>
-        <title>
-           ${title}
-        </title>
-         <meta name ="view port" content ="width=device-width,initial-scale=1"/>
+                 <meta name ="view port" content ="width=device-width,initial-scale=1"/>
         <link href="/ui/style.css" rel="stylesheet" />
                    </head>
     <body>
